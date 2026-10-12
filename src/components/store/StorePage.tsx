@@ -41,14 +41,15 @@ export function StorePage() {
   return (
     <div className="min-h-[100dvh] w-full max-w-full overflow-x-hidden bg-[#faf6f0] text-[#2a1a0a] pb-[calc(4.5rem+env(safe-area-inset-bottom))] sm:pb-0">
       <header className="w-full max-w-full border-b border-[#1e4d3a]/10 bg-[#f5f3ee] pt-safe">
-        <div className="mx-auto flex w-full max-w-6xl items-center px-4 py-3 sm:px-6 sm:py-5">
-          <a href="/" className="flex items-center">
+        <div className="mx-auto flex w-full max-w-6xl items-center px-4 py-2 sm:px-6 sm:py-3">
+          <a href="/" className="inline-flex max-w-[9rem] items-center sm:max-w-[10.5rem]">
             <Image
               src="/logo.jpg"
               alt="Royal Garden Restaurant"
-              width={280}
-              height={112}
-              className="h-12 w-auto max-w-[min(100%,280px)] object-contain sm:h-16 md:h-[4.5rem]"
+              width={168}
+              height={72}
+              className="block h-8 w-full max-h-8 object-contain object-left sm:h-9 sm:max-h-9 md:h-10 md:max-h-10"
+              style={{ width: "auto", maxWidth: "10.5rem" }}
               priority
             />
           </a>

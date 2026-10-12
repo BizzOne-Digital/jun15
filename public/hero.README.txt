@@ -1,0 +1,3 @@
+Add your hero background image here as hero.jpg (wide landscape, ~1920x800).
+The site will show it behind the hero section with a soft cream overlay.
+Use the ChatGPT prompt from the project README or ask your developer.
